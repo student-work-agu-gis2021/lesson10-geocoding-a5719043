@@ -116,7 +116,7 @@ pop = gpd.GeoDataFrame.from_features(geojson.loads(r.content))
 # Check your input data
 print("Number of rows:", len(pop))
 print(pop.head(3))
-
+ 
 
 # In[ ]:
 
